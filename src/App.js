@@ -16,7 +16,9 @@ function App() {
       mapStyle="mapbox://styles/mapbox/streets-v9"
     >
       <Marker longitude={78.0421} latitude={27.1751} anchor="bottom">
-        <LocationOnIcon style={{ fontSize: viewport.zoom*7, color: "slateblue"}}/>
+        <LocationOnIcon
+          style={{ fontSize: viewport.zoom * 7, color: "slateblue" }}
+        />
       </Marker>
     </Map>
   );
